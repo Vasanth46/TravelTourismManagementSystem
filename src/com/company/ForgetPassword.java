@@ -69,7 +69,7 @@ public class ForgetPassword extends JFrame implements ActionListener {
         p1.add(txtquestion);
 
 
-        JLabel answer=new JLabel("Security Question");
+        JLabel answer=new JLabel("Answer");
         answer.setBounds(40,140,150,25);
         answer.setFont(new Font("Tahoma",Font.BOLD,14));
         p1.add(answer);
@@ -86,7 +86,7 @@ public class ForgetPassword extends JFrame implements ActionListener {
         retrieve.addActionListener(this);
         p1.add(retrieve);
 
-        JLabel rtpwd=new JLabel("Security Question");
+        JLabel rtpwd=new JLabel("Password");
         rtpwd.setBounds(40,180,150,25);
         rtpwd.setFont(new Font("Tahoma",Font.BOLD,14));
         p1.add(rtpwd);
