@@ -1,0 +1,13 @@
+# VS Code files
+.vscode/
+*.code-workspace
+
+# Ant build files
+build/
+dist/
+
+# Log files
+*.log
+
+# Configuration files
+application.properties
